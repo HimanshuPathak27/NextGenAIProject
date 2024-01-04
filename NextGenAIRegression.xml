@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="false" name="RegressionSuite">
+	<listeners>
+		<listener class-name="com.nextgenai.listeners.CustomListeners"/>
+	</listeners>
+  <test name="Tests">
+    <classes>
+      <class name="com.nextgenai.driverscript.TestBase"/>
+      <class name="com.nextgenai.tests.ScreenNavigationTests"/>
+      <class name="com.nextgenai.tests.RegisterUserTests"/>
+    </classes>
+  </test> <!-- Tests -->
+</suite> <!-- RegressionSuite -->

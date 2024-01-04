@@ -1,0 +1,284 @@
+<html>
+<head>
+<title>TestNG:  Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>17/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Oct 03 08:12:11 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>83 seconds (83348 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nextgenai.tests.ScreenNavigationTests.validatingHomePageNavigation()'><b>validatingHomePageNavigation</b><br>Test class: com.nextgenai.tests.ScreenNavigationTests<br/>
+<a href="#Output-1540031691" onClick='toggleBox("Output-1540031691", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1540031691" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1540031691">
+Successfully Navigated to Home Page<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.nextgenai.tests.ScreenNavigationTests@4b45a2f5</td></tr>
+<tr>
+<td title='com.nextgenai.tests.ScreenNavigationTests.validatingTechTalksNavigation()'><b>validatingTechTalksNavigation</b><br>Test class: com.nextgenai.tests.ScreenNavigationTests<br/>
+<a href="#Output-1195615010" onClick='toggleBox("Output-1195615010", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1195615010" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1195615010">
+Successfully Navigated to Tech Talks Page<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nextgenai.tests.ScreenNavigationTests@4b45a2f5</td></tr>
+<tr>
+<td title='com.nextgenai.tests.RegisterUserTests.validatingRegistrationPageTitle()'><b>validatingRegistrationPageTitle</b><br>Test class: com.nextgenai.tests.RegisterUserTests<br/>
+<a href="#Output-1948224958" onClick='toggleBox("Output-1948224958", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1948224958" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1948224958">
+Title of Regsiter User Page is validated<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.nextgenai.tests.RegisterUserTests@f09733f</td></tr>
+<tr>
+<td title='com.nextgenai.tests.RegisterUserTests.validatingRegistrationFormTitle()'><b>validatingRegistrationFormTitle</b><br>Test class: com.nextgenai.tests.RegisterUserTests<br/>
+<a href="#Output-1568450200" onClick='toggleBox("Output-1568450200", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1568450200" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1568450200">
+Title of Regsiter Form is validated<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.nextgenai.tests.RegisterUserTests@f09733f</td></tr>
+<tr>
+<td title='com.nextgenai.tests.ScreenNavigationTests.validatingAlertAndPopupNavigation()'><b>validatingAlertAndPopupNavigation</b><br>Test class: com.nextgenai.tests.ScreenNavigationTests<br/>
+<a href="#Output-1900438403" onClick='toggleBox("Output-1900438403", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1900438403" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1900438403">
+Successfully Navigated to Alert and Popup Page<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nextgenai.tests.ScreenNavigationTests@4b45a2f5</td></tr>
+<tr>
+<td title='com.nextgenai.tests.ScreenNavigationTests.validatingMultipleWindowsNavigation()'><b>validatingMultipleWindowsNavigation</b><br>Test class: com.nextgenai.tests.ScreenNavigationTests<br/>
+<a href="#Output-738937987" onClick='toggleBox("Output-738937987", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-738937987" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-738937987">
+Successfully Navigated to Multiple Windows Page<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nextgenai.tests.ScreenNavigationTests@4b45a2f5</td></tr>
+<tr>
+<td title='com.nextgenai.tests.RegisterUserTests.validatingRegistrationFormNavigation()'><b>validatingRegistrationFormNavigation</b><br>Test class: com.nextgenai.tests.RegisterUserTests<br/>
+<a href="#Output-399715995" onClick='toggleBox("Output-399715995", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-399715995" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-399715995">
+Successfully Navigated to Register Demo Page<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nextgenai.tests.RegisterUserTests@f09733f</td></tr>
+<tr>
+<td title='com.nextgenai.tests.ScreenNavigationTests.validatingDynamicTransactionNavigation()'><b>validatingDynamicTransactionNavigation</b><br>Test class: com.nextgenai.tests.ScreenNavigationTests<br/>
+<a href="#Output-1141811719" onClick='toggleBox("Output-1141811719", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1141811719" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1141811719">
+Successfully Navigated to Dynamic Transaction Page<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.nextgenai.tests.ScreenNavigationTests@4b45a2f5</td></tr>
+<tr>
+<td title='com.nextgenai.tests.ScreenNavigationTests.validatingRegistrationFormNavigation()'><b>validatingRegistrationFormNavigation</b><br>Test class: com.nextgenai.tests.ScreenNavigationTests<br/>
+<a href="#Output-872592585" onClick='toggleBox("Output-872592585", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-872592585" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-872592585">
+Successfully Navigated to Register Demo Page<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.nextgenai.tests.ScreenNavigationTests@4b45a2f5</td></tr>
+<tr>
+<td title='com.nextgenai.tests.ScreenNavigationTests.validatingIFrameNavigation()'><b>validatingIFrameNavigation</b><br>Test class: com.nextgenai.tests.ScreenNavigationTests<br/>
+<a href="#Output-888378046" onClick='toggleBox("Output-888378046", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-888378046" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-888378046">
+Successfully Navigated to i Frames Page<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.nextgenai.tests.ScreenNavigationTests@4b45a2f5</td></tr>
+<tr>
+<td title='com.nextgenai.tests.ScreenNavigationTests.validatingMouseEventNavigation()'><b>validatingMouseEventNavigation</b><br>Test class: com.nextgenai.tests.ScreenNavigationTests<br/>
+<a href="#Output-524606891" onClick='toggleBox("Output-524606891", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-524606891" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-524606891">
+Successfully Navigated to MouseEvent Page<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.nextgenai.tests.ScreenNavigationTests@4b45a2f5</td></tr>
+<tr>
+<td title='com.nextgenai.tests.ScreenNavigationTests.validatingProgressBarNavigation()'><b>validatingProgressBarNavigation</b><br>Test class: com.nextgenai.tests.ScreenNavigationTests<br/>
+<a href="#Output-1037572328" onClick='toggleBox("Output-1037572328", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1037572328" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1037572328">
+Successfully Navigated to Progress Bar Page<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.nextgenai.tests.ScreenNavigationTests@4b45a2f5</td></tr>
+<tr>
+<td title='com.nextgenai.tests.ScreenNavigationTests.validatingToolsCurriculumNavigation()'><b>validatingToolsCurriculumNavigation</b><br>Test class: com.nextgenai.tests.ScreenNavigationTests<br/>
+<a href="#Output-1010983633" onClick='toggleBox("Output-1010983633", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1010983633" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1010983633">
+Successfully Navigated to Tools Curriculum Page<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nextgenai.tests.ScreenNavigationTests@4b45a2f5</td></tr>
+<tr>
+<td title='com.nextgenai.tests.ScreenNavigationTests.validatingSeleniumCurriculumNavigation()'><b>validatingSeleniumCurriculumNavigation</b><br>Test class: com.nextgenai.tests.ScreenNavigationTests<br/>
+<a href="#Output-1631959070" onClick='toggleBox("Output-1631959070", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1631959070" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1631959070">
+Successfully Navigated to Selenium Curriculum Page<br/>
+</div>
+</td>
+<td></td>
+<td>40</td>
+<td>com.nextgenai.tests.ScreenNavigationTests@4b45a2f5</td></tr>
+<tr>
+<td title='com.nextgenai.tests.ScreenNavigationTests.validatingWebTableNavigation()'><b>validatingWebTableNavigation</b><br>Test class: com.nextgenai.tests.ScreenNavigationTests<br/>
+<a href="#Output-2011912080" onClick='toggleBox("Output-2011912080", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2011912080" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2011912080">
+Successfully Navigated to Web Tables Page<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.nextgenai.tests.ScreenNavigationTests@4b45a2f5</td></tr>
+<tr>
+<td title='com.nextgenai.tests.ScreenNavigationTests.validatingPythonForAutomationNavigation()'><b>validatingPythonForAutomationNavigation</b><br>Test class: com.nextgenai.tests.ScreenNavigationTests<br/>
+<a href="#Output-235154585" onClick='toggleBox("Output-235154585", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-235154585" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-235154585">
+Successfully Navigated to Python For Automation Page<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.nextgenai.tests.ScreenNavigationTests@4b45a2f5</td></tr>
+<tr>
+<td title='com.nextgenai.tests.ScreenNavigationTests.validatingTestimonialsNavigation()'><b>validatingTestimonialsNavigation</b><br>Test class: com.nextgenai.tests.ScreenNavigationTests<br/>
+<a href="#Output-175822565" onClick='toggleBox("Output-175822565", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-175822565" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-175822565">
+Successfully Navigated to Testimonials Page<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nextgenai.tests.ScreenNavigationTests@4b45a2f5</td></tr>
+</table><p>
+</body>
+</html>
